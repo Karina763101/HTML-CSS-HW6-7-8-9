@@ -1,0 +1,296 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container1{
+    background-image: url('../images/back_head.png');
+    height: 100vh;
+    max-height: 1000px;
+    min-height: 568px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 25px 0;
+}
+
+.menu{
+    padding-top: 15px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    padding: 0 27px;
+    cursor: pointer;
+}
+
+.menu ul li a, .menu ul li i{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.menu ul li:hover a, .menu ul li a:focus{
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+    transition: 0.3s;
+}
+
+.menu ul li:hover i, .menu ul li i:focus{
+    color: #fce38a;
+    transition: 0.3s;
+}
+
+.container1 .content{
+    text-align: center;
+}
+
+.container1 .content h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    font-weight: 400;
+    padding-top: 10vh;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.container1 .content h1{
+    font-size: 150px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+hr{
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
+}
+
+.container1 .content hr{
+    background-color: #ffffff;
+    margin-top: 60px;
+}
+
+.container1 .content a{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: 3px solid #ffffff;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.container1 .content a:hover{
+    background-color: #ffffff;
+    color: #fce38a;
+}
+
+.container2 .text{
+    text-align: center;
+    margin-top: 90px;
+}
+
+h3{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333333;
+}
+
+.text h2{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.text p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+
+.container2 .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+.container2 .cards .item{
+    width: 32%;
+    position: relative;
+    max-height: 250px;
+    transition: 0.5s ease;
+}
+
+.container2 .cards .item:hover{
+    top: -10px;
+    left: -10px;
+    box-shadow: #95e1d3 10px 12px;
+    transition: 0.8s ease;
+}
+
+.container2 .cards .hidden{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 33%;
+    color: #ffffff;
+    font-size: 24px;
+    opacity: 0;
+}
+
+.container2 .cards .item:hover .hidden{
+    transition: 0.8s ease-in-out;
+    opacity: 1;
+}
+
+.container2 .cards .hidden p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+
+.container2 .cards .item img{
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.container3{
+    background-color: #95e1d3;
+}
+
+.container3 .flex{
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.container3 .flex .numbers{
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #b5eae0;
+    border-style: solid;
+    text-align: center;
+    width: 239px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+}
+
+.container3 .numbers div{
+    margin: 0 auto;
+}
+
+.container3 .flex h2{
+    color: #ffffff;
+    font-size: 72px;
+}
+
+.container3 .flex p{
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+@media(min-height:1000px){
+    .container1 .content h2 {
+        padding-top: 100px;
+    }
+}
+
+@media(max-width:1024px){
+    .menu{
+        display: none;
+    }
+
+    .container2 .cards .item{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .container1 .content h2 {
+        font-size: 48px;
+    }
+}
+
+@media(max-width:600px){
+    .container2 .cards .item{
+        width: 100%;
+    }   
+}
+
+@media(max-width:425px){
+    .container1 .content h2 {
+        font-size: 36px;
+    }
+}
+
