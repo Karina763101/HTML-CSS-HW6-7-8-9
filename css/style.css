@@ -100,7 +100,7 @@ header{
     text-transform: uppercase;
     width: 90%;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 2.5%;
 }
 
 hr{
@@ -112,7 +112,7 @@ hr{
 
 .container1 .content hr{
     background-color: #ffffff;
-    margin-top: 60px;
+    margin-top: 5%;
 }
 
 .container1 .content a{
@@ -122,7 +122,7 @@ hr{
     color: #ffffff;
     padding: 10px 30px;
     border: 3px solid #ffffff;
-    margin-top: 50px;
+    margin-top: 4.1%;
     font-size: 14px;
     font-weight: bold;
     transition: 0.5s ease-in-out;
@@ -422,11 +422,27 @@ p{
 @media(max-height:850px){
     .container1 .content h2 {
         padding-top: 5vh;
-        font-size: 64px;
+        font-size: 54px;
     }
 
     .container1 .content h1 {
-        font-size: 144px;
+        font-size: 134px;
+        width: 68%;
+        margin-top: 1%;
+    }
+
+    .container1 .content hr {
+        margin-top: 3%;
+    }
+}
+
+@media(max-height:700px){
+    .container1 .content h2 {
+        font-size: 50px;
+    }
+
+    .container1 .content h1 {
+        font-size: 124px;
         width: 68%;
     }
 }
