@@ -212,7 +212,7 @@ p{
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .container2 .cards .item img{
@@ -307,8 +307,6 @@ p{
     padding-left: 4%;
 }
 
-
-
 .container4 .grid .icon{
     color: #95e1d3;
     display: inline-block;
@@ -331,7 +329,70 @@ p{
     margin-top: 10px;
 }
 
+.container6 .text{
+    text-align: center;
+    margin-top: 40px;
+}
 
+.container6 .text p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.container6 .container img{
+    height: 100%;
+    padding-left: 0;
+}
+
+.container6 .container_add{
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+.container6 .container_add .line{
+    padding-right: 0;
+}
+
+.container6 .container_add .spisok{
+    background-color: transparent;
+    padding: 10px 0 10px 7px;
+}
+
+.container6 .container_add button{
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container6 .container_add button .button_text{
+    display: flex;
+    align-items: center;
+}
+
+.container6 .container_add button i{
+    font-size: 32px;
+    color: #95e1d3;
+    padding-right: 10px;
+}
+
+.container6 .container_add .par{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #acacac;
+}
+
+.container9{
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container9 .images{
+    text-align: center;
+}
 
 .container10 .grid_cards{
     display: grid;
@@ -413,6 +474,54 @@ p{
     object-fit: cover;
 }
 
+.container12{
+    background-image: url(../images/con12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.container12 .name{
+    text-align: center;
+    padding-top: 6%;
+}
+
+.container12 .container_add{
+    padding-top: 85px;
+    padding-bottom: 62px;
+}
+
+.container12 .our_item{
+    padding-bottom: 70px;
+}
+
+.container12 .our_item img{
+    margin-right: 2rem !important;
+}
+
+.container12 .container_add .our_item h5{
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.container12 .container_add .our_item .about{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #4b4b4b;
+}
+
+.container12 .container_add .our_item hr{
+    margin: 0;
+}
+
+.container12 .container_add .our_item .desc{
+    margin-top: 24px;
+    width: 95%;
+}
+
 @media(min-height:1000px){
     .container1 .content h2 {
         padding-top: 100px;
@@ -450,6 +559,11 @@ p{
 @media(max-width:1024px){
     .menu{
         display: none;
+    }
+
+    .container1 .content h1{
+        width: 100%;
+
     }
 
     .container2 .cards .item{
