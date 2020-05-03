@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;700&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
 </head>
 <body>
     <div class="wrapper">
@@ -176,6 +177,21 @@
                 </div>
             </div>
         </section>
+        <section class="container5">
+            <div class="text center indent">
+                <h3>For all devices</h3>
+                <h2>Unique design</h2>
+                <hr>
+            </div>
+            <div class="images">
+                <div class="img1">
+                    <img class="img-fluid wow slideInLeft" src="./images/con5_1.png" alt="">
+                    <div class="img2">
+                        <img class="img-fluid wow slideInRight" src="./images/con5_2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="container6">
             <div class="text center indent">
                 <h3>Service</h3>
@@ -187,12 +203,14 @@
                     quis nostrud exercitation ullamco laboris 
                     nisi ut aliquip ex ea commodo consequat. </p>
             </div>
-            <div class="container center container_add">
+            <div class="container-fluid center container_add">
                 <div class="row">
-                    <img src="./images/con6.png" class="img-fluid col-6" alt="Responsive image">
+                    <div class="image col-6">
+                        <img src="./images/con6.png" class="img-fluid" alt="Responsive image">
+                    </div>
 
                     <div class="accordion line col-6" id="accordionExample">
-                        <div class="card">
+                        <div class="card my-card">
                           <div class="card-header spisok" id="headingOne">
                             <h2 class="mb-0">
                               <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -204,8 +222,8 @@
                             </h2>
                           </div>
                       
-                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body par">
+                          <div id="collapseOne" class="collapse show show-my" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body par" id="scroll">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco 
@@ -214,10 +232,14 @@
                                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
                                 cupidatat non proident, sunt in culpa qui officia deserunt 
                                 mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </div>
                           </div>
                         </div>
-                        <div class="card">
+                        <div class="card my-card">
                           <div class="card-header spisok" id="headingTwo">
                             <h2 class="mb-0">
                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -228,8 +250,8 @@
                               </button>
                             </h2>
                           </div>
-                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body par">
+                          <div id="collapseTwo" class="collapse show-my" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body par" id="scroll">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore magna 
                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -253,7 +275,7 @@
                             </h2>
                           </div>
                           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body par">
+                            <div class="card-body par" id="scroll">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore magna 
                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -266,6 +288,72 @@
                           </div>
                         </div>
                       </div>
+                </div>
+            </div>
+        </section>
+        <section class="container8 center">
+            <div class="text indent">
+                <h3>Who we are</h3>
+                <h2>Meet our team</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+            <div class="container-fluid gallery">
+                <div class="row justify-content-between">
+                    <div class="card-add">
+                        <div class="images-gall">
+                            <img class="img-fluid" src="./images/con8_1.png"  alt="...">
+                            <div class="hidden">
+                                <div class="icons">
+                                    <div class="mini"><i class="fab fa-facebook-f"></i></div>
+                                    <div class="mini"><i class="fab fa-twitter"></i></div>
+                                    <div class="mini"><i class="fab fa-pinterest-p"></i></div>
+                                    <div class="mini"><i class="fab fa-instagram"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-2">
+                            <h5 class="mt-0 wow slideInRight">Matthew Dix</h5>
+                            <p class="about wow slideInLeft">Graphic Design</p>
+                        </div>
+                    </div>
+                    <div class="card-add">
+                        <div class="images-gall">
+                            <img class="img-fluid" src="./images/con8_2.png" alt="...">
+                            <div class="hidden">
+                                <div class="icons">
+                                    <div class="mini"><i class="fab fa-facebook-f"></i></div>
+                                    <div class="mini"><i class="fab fa-twitter"></i></div>
+                                    <div class="mini"><i class="fab fa-pinterest-p"></i></div>
+                                    <div class="mini"><i class="fab fa-instagram"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-2">
+                            <h5 class="mt-0 wow slideInRight">Christopher Campbell</h5>
+                            <p class="about wow slideInLeft">Branding/UX design</p>
+                        </div>
+                    </div>
+                    <div class="card-add">
+                        <div class="images-gall">
+                            <img class="img-fluid" src="./images/con8_3.png" alt="...">
+                            <div class="hidden">
+                                <div class="icons">
+                                    <div class="mini"><i class="fab fa-facebook-f"></i></div>
+                                    <div class="mini"><i class="fab fa-twitter"></i></div>
+                                    <div class="mini"><i class="fab fa-pinterest-p"></i></div>
+                                    <div class="mini"><i class="fab fa-instagram"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-2">
+                            <h5 class="mt-0 wow slideInRight">Michael Fertig </h5>
+                            <p class="about wow slideInLeft">Developer</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -415,6 +503,10 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
 
